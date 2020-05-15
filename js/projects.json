@@ -1,0 +1,10 @@
+{
+    
+    "image_path": "img/projects/",
+    "link_separator": "|",
+    "projects": [
+        {"project_name": "Quiz", "project_description": "A simple quiz game using the <a href='https://opentdb.com' target='_blank'>OpenTDB</a> API for questions and answers. Made using <a href='https://jquery.com/' target='_blank'>jQuery</a>.", "project_image_name": "quiz-icon.png", "project_links": [{"url": "https://rosst18.github.io/Quiz/", "name": "Quiz"}, {"url": "https://github.com/RossT18/Quiz", "name": "GitHub Repository"}]},
+        {"project_name": "linked List in Go", "project_description": "This is my first <a href='https://golang.org/' target='_blank'>Go</a> project which taught me the basics of the language and some advanced concepts like structs, pointers, and errors. Its features include: pushing, popping, inserting, removing, sorting and more (which can be found in the README on the GitHub repository).", "project_image_name": "go-linked-list-icon.png", "project_links": [{"url": "https://github.com/RossT18/Go-Linked-List", "name": "GitHub Repository"}]},
+        {"project_name": "My Portfolio Website", "project_description": "This website.", "project_image_name": "missing-icon.png", "project_links": [{"url": "http://rosst18.github.io/Portfolio-Website", "name": "Ross Tinsley"}, {"url": "https://github.com/RossT18/Portfolio-Website", "name": "GitHub Repository"}]}
+    ]
+}
