@@ -1,4 +1,14 @@
-const text = "Hello, this is an example paragraph. Look at all these words being placed one by one!<br>New Line?<br>Not sure what else I can write.<br>This is just an example<br><br>A big gap ^<br>It's peaceful down here :)";
+const text = "My name is Ross and I am a BSc Computer Science student due to graduate from Lancaster University in the summer of 2021.<br>I am an experienced problem-solver who enjoys creating programming projects in my spare time.<br>I find learning new languages and comparing them to others rewarding as well.<br><br>A selection of projects can be found in the link at the top of the page along with my CV (where it can be downloaded or viewed in the page).<br><br>Below are links to other profiles of mine as well as contact information."
+
+/*
+My name is Ross and I am a BSc Computer Science student due to graduate from Lancaster University in the summer of 2021.
+I am an experienced problem-solver who enjoys creating programming projects in my spare time.
+I find learning new languages and comparing them to others rewarding as well.
+
+A selection of projects can be found in the link at the top of the page along with my CV (where it can be downloaded or viewed in the page).
+
+Below are links to other profiles of mine as well as contact information.
+*/
 
 function splitIntoWords(txt) {
 	return txt.split(" ");
