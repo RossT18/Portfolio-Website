@@ -17,3 +17,5 @@ The background of the website is a slideshow of images taken during various trip
 The first image is a photo of Jet d'Eau in Geneva.
 The second is a photo of Verona from Castel San Pietro.
 The third is a photo taken of Lake Windermere in the Lake District National Park.
+
+All background images can be found in original and compressed quality within the `img\backgrounds` folder.
