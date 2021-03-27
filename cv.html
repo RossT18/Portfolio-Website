@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ross Tinsley's Projects</title>
+        <title>Ross Tinsley CV</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/projectStyles.css">
         <link rel="icon" href="favicon.ico">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +11,29 @@
         <link rel="preload" href="img/backgrounds/bg-geneva.jpg" as="image">
         <link rel="preload" href="img/backgrounds/bg-lake.jpg" as="image">
         <link rel="preload" href="img/backgrounds/bg-verona.jpg" as="image">
-
     </head>
-
     <body>
         <div class="container">
             <div class="main-content">
-                <div id="project-container">
+                <div id="cv-container">
                     <div class="title-box">
                         <div class="title-box-content">
-                            <h1>Projects</h1>
-                            <a href="index.html">Home</a>
+                            <h1>Curriculum Vitae</h1>
+                            <div class="title-box-subcontent">
+                                <a href="index.html">Home</a>
+                                <div id="cv-controls">
+                                    <!-- Buttons to download CV in different formats-->
+                                    <p>Download As...</p>
+                                    <a href="docs/Tinsley-Ross-CV.pdf" download>PDF</a> |
+                                    <a href="docs/Tinsley-Ross-CV.docx" download>DOCX</a> |
+                                    <a href="docs/Tinsley-Ross-CV.doc" download>DOC</a>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+    
+                    <div id="cv-frame-container">
+                        <iframe id="cv-frame" src="docs/Tinsley-Ross-CV.pdf#toolbar=0&view=FitH&scrollbar=1"></iframe>
                     </div>
                 </div>
             </div>

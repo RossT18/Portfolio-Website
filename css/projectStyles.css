@@ -10,15 +10,6 @@
     overflow: auto;
 }
 
-#title-box {
-    background: rgba(255, 255, 255, 0.85);
-    width: 100%;
-}
-
-#title-box-content {
-    padding: 10px;
-}
-
 
 .project-box {
     align-self: center;
