@@ -1,7 +1,8 @@
-const text = "My name is Ross and I am a BSc Computer Science student due to graduate from Lancaster University in the summer of 2021.<br>I am an experienced problem-solver who enjoys creating programming projects in my spare time.<br>I find learning new languages and comparing them to others rewarding as well.<br><br>A selection of projects can be found in the link at the top of the page along with my CV (where it can be downloaded or viewed in the page).<br><br>Below are links to other profiles of mine as well as contact information."
+const text = "My name is Ross and I am a BSc Computer Science student due to graduate from Lancaster University in the summer of 2021.<br><br>I am an experienced problem-solver who enjoys creating programming projects in my spare time.<br>I find learning new languages and comparing them to others rewarding as well.<br><br>A selection of projects can be found in the link at the top of the page along with my CV (where it can be downloaded or viewed in the page).<br><br>Below are links to other profiles of mine as well as contact information."
 
 /*
 My name is Ross and I am a BSc Computer Science student due to graduate from Lancaster University in the summer of 2021.
+
 I am an experienced problem-solver who enjoys creating programming projects in my spare time.
 I find learning new languages and comparing them to others rewarding as well.
 
@@ -16,7 +17,7 @@ function splitIntoWords(txt) {
 
 
 let i = 0;
-let speed = 30;
+let speed = 4;
 function wordWriter() {
 	const words = splitIntoWords(text);
 	if (i < words.length) {
