@@ -70,6 +70,21 @@
     align-self: center;
 }
 
+.project-box-link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.project-box-link:hover {
+    background-color: rgb(116,203,252);
+}
+
+.project-box-link > img {
+    width: 2em;
+    height: 2em;
+}
+
 ::-webkit-scrollbar {
     width: 6px;
 }

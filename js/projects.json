@@ -1,11 +1,64 @@
 {
-    
-    "image_path": "img/projects/",
-    "link_separator": "|",
+    "image_path_projects": "img/projects/",
+    "image_path_links": "img/icons/",
     "projects": [
-        {"project_name": "Quiz", "project_description": "A simple quiz game using the <a href='https://opentdb.com' target='_blank'>OpenTDB</a> API for questions and answers. Made using <a href='https://jquery.com/' target='_blank'>jQuery</a>.", "project_image_name": "quiz-icon.png", "project_links": [{"url": "https://rosst18.github.io/Quiz/", "name": "Quiz"}, {"url": "https://github.com/RossT18/Quiz", "name": "GitHub Repository"}]},
-        {"project_name": "Linked List in Go", "project_description": "This is my first <a href='https://golang.org/' target='_blank'>Go</a> project which taught me the basics of the language and some advanced concepts. A full list of features can be found in the README on the GitHub repository.", "project_image_name": "go-linked-list-icon.png", "project_links": [{"url": "https://github.com/RossT18/Go-Linked-List", "name": "GitHub Repository"}]},
-        {"project_name": "My Portfolio Website", "project_description": "My portfolio website.", "project_image_name": "me-paris.png", "project_links": [{"url": "http://rosst18.github.io/Portfolio-Website", "name": "Ross Tinsley"}, {"url": "https://github.com/RossT18/Portfolio-Website", "name": "GitHub Repository"}]},
-        {"project_name": "C++ Linked List Project", "project_description": "My first C++ project where a linked list is implemented with C++ and Python to compare runtime performance of both languages.", "project_image_name": "cpp-linked-list.png", "project_links": [{"url": "https://github.com/RossT18/CPP-Linked-List", "name": "GitHub Repository"}]}
+        {
+            "project_name": "Quiz",
+            "project_description": "A simple quiz game using the <a href='https://opentdb.com' target='_blank'>OpenTDB</a> API for questions and answers. Made using <a href='https://jquery.com/' target='_blank'>jQuery</a>.",
+            "project_image_name": "quiz-icon.png",
+            "project_links": [
+                {
+                    "url": "https://rosst18.github.io/Quiz/",
+                    "name": "Quiz",
+                    "image": "quiz-icon.png"
+                },
+                {
+                    "url": "https://github.com/RossT18/Quiz",
+                    "name": "GitHub",
+                    "image": "github.png"
+                }
+            ]
+        },
+        {
+            "project_name": "Linked List in Go",
+            "project_description": "My first <a href='https://golang.org/' target='_blank'>Go</a> project. This taught me the basics of the language and some of its advanced concepts. A full list of features can be found in the README on the GitHub.",
+            "project_image_name": "go-linked-list-icon.png",
+            "project_links": [
+                {
+                    "url": "https://github.com/RossT18/Go-Linked-List",
+                    "name": "GitHub",
+                    "image": "github.png"
+                }
+            ]
+        },
+        {
+            "project_name": "My Portfolio Website",
+            "project_description": "My portfolio website.",
+            "project_image_name": "me-paris.png",
+            "project_links": [
+                {
+                    "url": "http://rosst18.github.io/Portfolio-Website",
+                    "name": "Ross Tinsley",
+                    "image": "user.png"
+                },
+                {
+                    "url": "https://github.com/RossT18/Portfolio-Website",
+                    "name": "GitHub",
+                    "image": "github.png"
+                }
+            ]
+        },
+        {
+            "project_name": "C++ Linked List Project",
+            "project_description": "My first C++ project. A linked list is implemented with C++ and Python to compare runtime performance of both languages.",
+            "project_image_name": "cpp-linked-list.png",
+            "project_links": [
+                {
+                    "url": "https://github.com/RossT18/CPP-Linked-List",
+                    "name": "GitHub",
+                    "image": "github.png"
+                }
+            ]
+        }
     ]
 }

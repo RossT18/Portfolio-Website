@@ -67,10 +67,16 @@
     align-items: center;
     font-size: 1.2em;
     min-width: 8em;
+    color: black;
 }
 
 .social-link:hover {
     background-color: rgb(116,203,252);
+}
+
+.social-link > img {
+    width: 3.5em;
+    height: 3.5em;
 }
 
 .title-box {

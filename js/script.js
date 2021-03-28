@@ -55,8 +55,8 @@ $(function() {
 });
 
 $.getJSON("js/projects.json", function(data) {
-	const imagePath = data.image_path;
-	const linkSeparator = data.link_separator;
+	const imagePathProjects = data.image_path_projects;
+	const imagePathLinks = data.image_path_links;
 	const projects = data.projects;
 	/* EXAMPLE
 	<div class="project-box">
@@ -82,15 +82,19 @@ $.getJSON("js/projects.json", function(data) {
 		for (let i = 0; i < projectLinks.length; i++) {
 			const link = projectLinks[i];
 			let linkTag = document.createElement("a");
+			let linkTagImg = document.createElement("img");
+			linkTagImg.src = imagePathLinks + link.image;
 			linkTag.href = link.url;
-			linkTag.innerHTML = link.name;
+			$(linkTag).append(linkTagImg);
 			linkTag.target = "_blank";
-			let linkSepP = document.createElement("p");
-			linkSepP.innerHTML = linkSeparator;
+			linkTag.className = "project-box-link";
+			let linkSepSpan = document.createElement("span");
+			linkSepSpan.className = "separator";
+
 			if (i == projectLinks.length - 1) {
 				$(projectLinksDiv).append(linkTag); //Don't add a separator if it's the last item.
 			} else {
-				$(projectLinksDiv).append(linkTag, linkSepP);
+				$(projectLinksDiv).append(linkTag, linkSepSpan);
 			}
 		}
 
@@ -104,7 +108,7 @@ $.getJSON("js/projects.json", function(data) {
 		$(projectDetailsDiv).append(projectTitle, projectDesc, projectLinksDiv)
 
 		let projectImage = document.createElement("img");
-		projectImage.src = imagePath + project.project_image_name;
+		projectImage.src = imagePathProjects + project.project_image_name;
 
 		let projectBoxContentDiv = document.createElement("div");
 		projectBoxContentDiv.setAttribute("class", "project-box-content");
